@@ -4,7 +4,7 @@ let contacts = JSON.parse(localStorage.getItem("contacts")) || [];
 // Display contacts on homepage
 function displayContacts() {
     const tableBody = document.querySelector("#contactsTable tbody");
-    tableBody.innerHTML = ""; // Clear existing rows
+    tableBody.innerHTML = ""; 
 
     contacts.forEach((contact, index) => {
         const row = document.createElement("tr");
