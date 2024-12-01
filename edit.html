@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Edit Contact</h1>
+    </header>
+    <main>
+        <button onclick="window.location.href='index.html'">Back to Homepage</button>
+        <form id="editForm">
+            <label for="editName">Name:</label>
+            <input type="text" id="editName" required>
+            
+            <label for="editEmail">Email:</label>
+            <input type="email" id="editEmail" required>
+            
+            <label for="editPhone">Phone:</label>
+            <input type="text" id="editPhone" required>
+            
+            <button type="submit">Save Changes</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
